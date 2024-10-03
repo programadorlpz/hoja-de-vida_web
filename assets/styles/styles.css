@@ -1,0 +1,102 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Logo y título de la página */
+header .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+/* Título de la página (Inicio, Educación) */
+header .page-title {
+    text-align: center;
+    margin-top: 80px;
+}
+header .page-title h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Navegación */
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #007bff;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    padding: 2rem;
+    background-color: #fff;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+main h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+main ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+main ul li {
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+footer p {
+    margin: 5px 0;
+}
+footer a {
+    color: #007bff;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Imagen */
+img {
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    max-width: 150px;
+    border: 3px solid #007bff;
+}
